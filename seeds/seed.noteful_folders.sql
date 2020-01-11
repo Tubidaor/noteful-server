@@ -1,14 +1,11 @@
 INSERT INTO noteful_folders (id, folder_name)
 VALUES
-    (
-      "id": "b0715efe-ffaf-11e8-8eb2-f2801f1b9fd1",
-      "name": "Important"
+    ('b0715efe-ffaf-11e8-8eb2-f2801f1b9fd1',
+      'Important'
     ),
-    (
-      "id": "b07161a6-ffaf-11e8-8eb2-f2801f1b9fd1",
-      "name": "Super"
+    ('b07161a6-ffaf-11e8-8eb2-f2801f1b9fd1',
+      'Super'
     ),
-    (
-      "id": "b07162f0-ffaf-11e8-8eb2-f2801f1b9fd1",
-      "name": "Spangley"
+    ('b07162f0-ffaf-11e8-8eb2-f2801f1b9fd1',
+      'Spangley'
     );
