@@ -3,7 +3,6 @@ const NotesService = {
     return knex.select('*').from('noteful_notes')
   },
   deleteNote(knex, id) {
-    console.log(id)
     return knex('noteful_notes')
       .where({id})
       .delete()

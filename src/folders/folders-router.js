@@ -20,7 +20,6 @@ foldersRouter
     const { folder_name } = req.body
     const id = uuid()
     const newFolder = { id, folder_name}
-    console.log(folder_name)
     FoldersService.addFolder(
       req.app.get('db'),
       newFolder
